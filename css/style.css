@@ -188,7 +188,8 @@ img
 
 /* Header Styles */
 
-blink, .msg {
+blink, .msg 
+{
     -webkit-animation: blink 1s step-end infinite;
     -moz-animation: blink 1s step-end infinite;
     -o-animation: blink 1s step-end infinite;
