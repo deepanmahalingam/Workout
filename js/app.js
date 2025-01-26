@@ -1,6 +1,12 @@
 const skills_wrap = document.querySelector(".core-skills");
 const skills_bars = document.querySelectorAll(".skill-progress");
 
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Set the year in the element with id "current-year"
+document.getElementById("current-year").textContent = currentYear;
+
 window.addEventListener("scroll", () =>
 {
     skillsEffect();
